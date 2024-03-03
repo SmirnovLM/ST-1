@@ -5,8 +5,8 @@
 #include "alg.h"
 
 TEST(prime, smallnumbers) {
-    EXPECT_TRUE(checkPrime(2)); 
-    EXPECT_TRUE(checkPrime(3)); 
+    EXPECT_TRUE(checkPrime(2));
+    EXPECT_TRUE(checkPrime(3));
     EXPECT_TRUE(checkPrime(5));
 }
 
@@ -34,7 +34,7 @@ TEST(nprime, ten) {
 
 
 TEST(nextprime, nextprimeofsmallnumber) {
-    EXPECT_EQ(nextPrime(10), 11); 
+    EXPECT_EQ(nextPrime(10), 11);
 }
 
 TEST(nextprime, nextprimeoflargenumber) {
@@ -42,15 +42,15 @@ TEST(nextprime, nextprimeoflargenumber) {
 }
 
 TEST(nextprime, nextprimeofprimenumber) {
-    EXPECT_EQ(nextPrime(13), 17); 
+    EXPECT_EQ(nextPrime(13), 17);
 }
 
 TEST(sumprime, sumbelowten) {
-    EXPECT_EQ(sumPrime(10), 17); 
+    EXPECT_EQ(sumPrime(10), 17);
 }
 
 TEST(sumprime, sumbelow50) {
-    EXPECT_EQ(sumPrime(50), 328); 
+    EXPECT_EQ(sumPrime(50), 328);
 }
 
 TEST(SumPrimeTest, SumOfPrimesBelowTwoMillion) {
